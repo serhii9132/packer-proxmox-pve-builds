@@ -30,7 +30,6 @@ variable "pve_node_name" {
 
 variable "storage_pool_disks" {
     type = string
-    default = "local"
 }
 
 variable "storage_pool_iso" {

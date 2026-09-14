@@ -13,4 +13,4 @@ proxmox:
 	export PACKER_LOG=1 && packer build .
 
 clean:
-	rm -rf $(LOG_DIR)
+	@rm -rf $(LOG_DIR)

@@ -3,3 +3,4 @@
 host_vars
 logs
 packer_cache
+collections

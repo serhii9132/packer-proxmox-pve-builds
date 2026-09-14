@@ -89,9 +89,10 @@ build {
     }
 
     provisioner "ansible" {
-        playbook_file   = "provisioning/playbook.yaml"
-        galaxy_file     = "provisioning/requirements.yaml"
-        extra_arguments = [ "-vvv" ]
-        user            = "root"
+        playbook_file       = "provisioning/playbook.yaml"
+        galaxy_file         = "provisioning/requirements.yaml"
+        extra_arguments     = [ "-vv" ]
+        user                = "root"
+        ansible_env_vars    = ["ANSIBLE_CONFIG=provisioning/ansible.cfg"]
     }
 }
