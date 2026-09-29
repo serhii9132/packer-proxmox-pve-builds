@@ -1,4 +1,4 @@
-### packer-proxmox-nested
+### packer-proxmox-pve-builds
 
 Creating a Proxmox VE template for development and debugging. The [proxmox-iso](https://developer.hashicorp.com/packer/integrations/hashicorp/proxmox/latest/components/builder/iso) builder is used for building an image
 
