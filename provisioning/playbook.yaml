@@ -9,8 +9,10 @@
       tags: apt_repos
     - role: serhii9132.proxmox_bootstrap.nag_screen
       tags: nag_screen
-    - role: serhii9132.base_layer.common
-      tags: common
+    - role: serhii9132.base_layer.timezone
+      tags: timezone
+    - role: serhii9132.base_layer.zero_space
+      tags: zero_space
     - role: serhii9132.base_layer.utilities
       tags: utilities
     - role: serhii9132.proxmox_bootstrap.ssh
